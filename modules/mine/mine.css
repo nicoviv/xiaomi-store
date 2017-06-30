@@ -1,0 +1,175 @@
+
+/*头部*/
+
+.header1{
+	width: 100%;
+	height: 2.221333rem;
+	background: url(../../img/myself-hd.png) no-repeat center 0 #f37d0f;
+	background-size: cover; 
+}
+.hd-inner{
+	display: flex;
+	width: 100%;
+	padding-top: 0.442667rem;
+}
+.hd-photo{
+	width: 1.333333rem;
+	height: 1.333333rem;
+	border-radius: 50%;
+	margin: 0 0.213333rem 0 0.442667rem;
+	background: url(../../img/my-login.png) no-repeat;
+	background-size: cover;
+}
+.hd-log{
+	color: #fff;
+	margin-top: 0.4rem;
+}
+.hd-log a{
+	font-size: 0.373333rem;
+	color: #fff;
+}
+
+/*order订单*/
+.order{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.266667rem 0;
+	border-bottom: 1px solid #ccc;
+	background: #fff;
+}
+.my-order{
+	margin-left: 0.426667rem;
+}
+.my-order a{
+	font-size: 0.373333rem;
+	color: #000;
+}
+.all-order{
+	position: relative;
+	top: -0.08rem;
+	margin-right: 0.373333rem;
+}
+.all-order a{
+	font-size: 0.373333rem;
+	color: #888888;
+}
+.all-order a span{
+	position: relative;
+	top: 0.08rem;
+	margin-left: 0.106667rem;
+	font-size: 0.64rem;
+}
+
+.nav1{
+	width: 100%;
+	background: #fff;
+}
+.nav1 ul{
+	width: 100%;
+	display: flex;
+}
+.nav1 ul li{
+	width: 33.33%;
+	height: 2.4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.icone{
+	width: 0.666667rem;
+	height: 0.666667rem;
+	background: url(../../img/daishou.png) no-repeat center center;
+	background-size: cover;
+	
+}
+.icon-p{
+	width: 0.666667rem;
+	height: 0.666667rem;
+	background: url(../../img/tuihuan.png) no-repeat;
+	background-size: cover;
+	
+}
+.icone,.icon-p{
+	margin: 0.133333rem;
+}
+.nav p{
+	color: #000;
+	margin-left: -0.133333rem;
+}
+
+
+/*items*/
+.items ul{
+	width: 100%;
+	background: #fff;
+}
+.items ul li{
+	width: 100%;
+	padding: 0.426667rem 0;
+}
+.items ul li:nth-of-type(1){
+	border-top: 8px solid #f5f5f5;
+	border-bottom: 8px solid #f5f5f5;
+}
+.line{
+	display: inline-block;
+	height: 0.028571rem;
+	width: 8.2rem;
+	background-color: red;
+	float: right;
+	margin-top: 0.514285rem;
+}
+.items ul li:nth-of-type(4){
+	border-top: 8px solid #f5f5f5;
+}
+.items ul li a{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.items ul li p{
+	padding-top: 0.133333rem; 
+	width: 80%;
+	height: 100%;
+	font-size: 0.373333rem;
+	color: #000;
+	display: flex;
+	justify-content: space-between;
+}
+.items ul li span{
+	font-size: 0.533333rem;
+	margin-top: -0.08rem;
+}
+.items ul li:nth-of-type(1) div{
+	margin:0 0 0 0.426667rem;
+	width: 0.693333rem;
+	height: 0.693333rem;
+	background: url(../../img/wallet.png) no-repeat;
+	background-size: cover; 
+}
+.items ul li:nth-of-type(2) div{
+	margin:0 0 0 0.426667rem;
+	width:0.693333rem;
+	height: 0.693333rem;
+	background: url(../../img/server.png) no-repeat;
+	background-size: cover; 
+}
+.items ul li:nth-of-type(3) div{
+	margin:0 0 0 0.426667rem;
+	width: 0.693333rem;
+	height: 0.693333rem;
+	background: url(../../img/home.png) no-repeat;
+	background-size: cover; 
+}
+.items ul li:nth-of-type(4) div{
+	margin:0 0 0 0.426667rem;
+	width: 0.693333rem;
+	height: 0.693333rem;
+	background: url(../../img/setting.png) no-repeat;
+	background-size: cover; 
+}
+
+

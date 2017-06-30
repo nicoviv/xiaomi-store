@@ -1,0 +1,7 @@
+.cart{
+	background:-webkit-linear-gradient(to left,red,green);
+			background:linear-gradient(to left,red,green);
+			text-align: center;
+			color: #fff;
+			line-height: 50px;
+}

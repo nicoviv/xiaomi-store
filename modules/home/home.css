@@ -1,0 +1,297 @@
+@charset 'utf-8';
+
+*{margin: 0;
+padding: 0;}
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+/*头部*/
+.header{
+	position: relative;
+	width: 100%;
+	/*background:url(../img/ban-bg.webp);*/
+	/*background-size: cover;*/
+}
+.nav{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	z-index: 100;
+	/*justify-content: space-around;*/
+	/*align-items: center;*/
+}
+.inp{
+	position: relative;
+}
+.inp input{
+	width: 6.4rem;
+	height: 0.75rem;
+	padding-left: 0.853333rem;
+	border-radius: 0.106667rem;
+	border: none;
+	outline: none;
+	margin: 0.186667rem 0 0.186667rem 0; 
+	font-size: 0.373333rem
+}
+.inp img{
+	display: inline-block;
+	width: 0.426667rem;
+	height: 0.426667rem;
+	position: absolute;
+	left: 0.333333rem;
+	top: 0.373333rem;
+}
+.img{
+	margin: 0.32rem;
+}
+
+.img img{
+	width: 0.693333rem;
+	height: 0.453333rem;
+}
+.denglu{
+	margin: 0.32rem 0 0.32rem  0.293333rem;
+}
+.denglu a{
+	font-size: 0.426667rem;
+	color: #fff;
+}
+.banner div{
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.banner img{
+	width: 100%;
+}
+
+
+
+/*header下面*/
+.news{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.news img{
+	width: 2.08rem;
+	height: 1.04rem;
+}
+.news p{
+	font-size: 0.32rem;
+}
+.news span{
+	margin-right: 0.24rem;
+	color: #ccc;
+	font-size: 0.373333rem;
+}
+
+
+/*products*/
+.products,.item1{
+	width: 100%;
+}
+.item1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.item1 .right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.item1 .left,.item1 .right{
+	width: 50%;
+}
+.item1 .left img{
+	width: 4.95rem;
+	height: 6.57rem;
+}
+.item1 .right-top img,.item1 .right-bottom img{
+	height: 3.253333rem;
+	width: 100%;
+}
+.item1 .bottom{
+	width: 100%;
+	margin-top: 0.133333rem;
+}
+.item1 .bottom img{
+	width: 100%;
+	height: 3.866667rem;
+}
+
+/*明星单品*/
+.item2,.first{
+	width: 100%;
+}
+.first img{
+	width: 100%;
+	height: 6.093333rem;
+}
+.second{
+	width: 100%;
+}
+.second ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.second ul li{
+	box-sizing: border-box;
+	width: 50%;
+	position: relative;
+	/*margin-right: 0.08rem;*/
+}
+.list:nth-of-type(even){
+	padding-left: 0.08rem
+}
+.list img{
+	width:100%;
+	height: 5.0rem;
+}
+.pro-name{
+	font-size: 0.373333rem;
+	color: #000;
+}
+.pro-color{
+	font-size: 0.32rem;
+	color: #8f8f8f;
+}
+.price{
+	font-size: 0.373333rem;
+	color: #da5f1b;
+}
+.price span{
+	font-size: 0.32rem;
+}
+.list p{
+	margin-left: 0.373333rem;
+}
+.introduce{
+	margin:0.266667rem 0;
+}
+
+.icon{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.icon img{
+	width: 1.109333rem;
+	height: 0.442667rem;
+}
+#fter{
+	width: 100px;
+	height:100px;
+}
+body,
+			dl,
+			h1,
+			h3,
+			h5,
+			h6,
+			hr,
+			p,
+			pre {
+				margin: 0;
+			}
+			
+			th,
+			td,
+			input,
+			textarea {
+				padding: 0;
+			}
+			
+			ol,
+			ul {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			
+			input,
+			button {
+				-webkit-appearance: none;
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			.clearfix:after {
+				content: "\200B";
+				display: block;
+				height: 0;
+				clear: both;
+			}
+			/*banner,滚动广告*/
+			
+			.banner {
+				position: relative;
+				width: 100%;
+				height: 5rem;
+			}
+			
+			.bannerbox,
+			.bannerindex {
+				position: absolute;
+			}
+			
+			.bannerbox {
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				z-index: 1;
+				overflow: hidden;
+			}
+			
+			.bannerlist {
+				position: relative;
+				width: 31rem;
+				overflow: hidden;
+			}
+			
+			.bannerlist a {
+				float: left;
+			}
+			
+			.bannerlist img {
+				display: block;
+				width: 10rem;
+				height: 5rem;
+				border: none;
+			}
+			
+			.bannerindex {
+				left: 0;
+				bottom: .3rem;
+				width: 100%;
+				z-index: 2;
+				font-size: 0;
+				text-align: center;
+			}
+			
+			.bannerindex li {
+				display: inline-block;
+				margin: 0 .16rem;
+				width: .19rem;
+				height: .19rem;
+				border-radius: .2rem;
+				background-color: #e5e5e5;
+			}
+			
+			.bannerindex li.thisindex {
+				background-color: #93d3eb;
+			}
